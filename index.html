@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css2/reset.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css2/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css">
+</head>
+
+<body>
+    <!--Header-->
+    <div class="hp-header">
+        <h1> <b> Seu livro sua história. Você vive o que você lê. </b> </h1>
+    </div>
+
+
+
+    <!--Cabeçalho-->
+    <div class="hp-cabecalho">
+
+        <!--Logo-->
+        <div class="logo">
+            <a href="./index.html">
+                <img class="cb-img" src="./img/logo-white.png">
+            </a>
+        </div>
+
+        <!--Nome da Empresa-->
+        <div class="nome-emp">
+            <div>
+                <b>
+                    <span class="span-nome-emp">Livraria</span>
+                    <span class="span-nome-emp">Nuances</span>
+                </b>
+            </div>
+        </div>
+
+        <!--Input de pesquisa-->
+
+
+        <div class="cb-pesquisa">
+            <div class="ui icon input">
+                <input class="input-pesquisa" type="text" placeholder="Digite aqui o que você procura...">
+                <i class="search icon"></i>
+            </div>
+        </div>
+
+        <!--Central de Atendimento-->
+        <div class="cb-atendimento">
+            <a href="./centraldeatedimento.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#FFFFFF" class="bi bi-headset"
+                viewBox="0 0 16 16">
+                <path
+                    d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z" />
+            </svg>
+            </a>
+        </div>
+
+        <div class="cb-txt-atendimento">
+            <b><span>Central de Atendimento</span></b>
+        </div>
+
+
+        <!--Central de Atendimento-->
+        <div class="cb-cadastro">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#FFFFFF" class="bi bi-person-circle" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+              </svg>
+        </div>
+
+        <div class="cb-txt-cadastro">
+            <b><span>Olá faça seu login ou cadastre-se</span></b>
+        </div>
+
+
+        <div class="cb-cesta">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#FFFFFF" class="bi bi-basket" viewBox="0 0 16 16">
+                <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"/>
+              </svg>
+        </div>
+
+        <div class="cb-txt-cesta">
+            <b><span>Cesta de compras</span></b>
+        </div>
+
+
+    </div>
+
+
+
+
+    <!--Campo de Menu-->
+    <div class="menu">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Livros
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-light">
+                                <li><a class="dropdown-item" href="#">Autores</a></li>
+                                <li><a class="dropdown-item" href="#">Editoras</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="/centraldeatedimento.html" aria-expanded="false">
+                                Quem somos!
+                            </a>
+
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <!--Carossel-->
+    <div class="hpcarossel">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/banner.jpg" class="d-block w-100" height="280px" width="100%">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/banner2.jpg" class="d-block w-100" height="280px" width="100%">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/banner3.jpg" class="d-block w-100" height="280px" width="100%">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>
+    </div>
+
+
+    <!--Divisão-->
+
+    <div class="menu">
+
+    </div>
+
+    <!--Cards-->
+    <div class="container-card">
+        <div class="cards-div">
+
+            <div class="card">
+                <div class="card_header">
+                    <b>Assassins Creed: A Cruzada Secreta</b>
+
+                </div>
+
+                <div class="card_body_image">
+                    <img class="card_body_image_img"
+                        src="https://m.media-amazon.com/images/I/51JbDJM1vAL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
+                        alt="">
+                </div>
+
+
+
+                <div class="card_body_text">
+                    <div class="card_body_t">
+                        <span>Assassins Creed: A Cruzada Secreta - Oliver Bowden - 336pgs</span>
+                    </div>
+
+                    <div class="card_body_v">
+                        <span style="text-decoration: line-through">R$ 29,00</span>
+                        <b><span style="font-size: 20px">R$ 20,30</span></b>
+                    </div>
+                </div>
+
+
+
+                <div class="card_footer btn btn-success">
+                    <b>ADICIONAR A LISTA DE COMPRAS</b>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_header">
+                    <b>Assassins Creed: Renascença</b>
+
+                </div>
+
+                <div class="card_body_image">
+                    <img class="card_body_image_img"
+                        src="https://m.media-amazon.com/images/I/51CQWq0v3DL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
+                        alt="">
+                </div>
+
+                <div class="card_body_text">
+                    <div class="card_body_t">
+                        <span>Assassins Creed: Renascença - Oliver Bowden - 378pgs</span>
+                    </div>
+
+                    <div class="card_body_v">
+                        <span style="text-decoration: line-through">R$ 31,50</span>
+                        <b><span style="font-size: 20px">R$ 22,05</span></b>
+                    </div>
+                </div>
+
+                <div class="card_footer btn btn-success">
+                    <b>ADICIONAR A LISTA DE COMPRAS</b>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_header">
+                    <b>Assassins Creed: Irmandade</b>
+
+                </div>
+
+                <div class="card_body_image">
+                    <img class="card_body_image_img"
+                        src="https://m.media-amazon.com/images/I/41JUKfBWxhL._SX333_BO1,204,203,200_.jpg" alt="">
+                </div>
+
+                <div class="card_body_text">
+                    <div class="card_body_t">
+                        <span>Assassins Creed: Irmandade - Oliver Bowden - 392pgs</span>
+                    </div>
+
+                    <div class="card_body_v">
+                        <span style="text-decoration: line-through">R$ 60,00</span>
+                        <b><span style="font-size: 20px">R$ 42,00</span></b>
+                    </div>
+                </div>
+
+                <div class="card_footer btn btn-success">
+                    <b>ADICIONAR A LISTA DE COMPRAS</b>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_header">
+                    <b>Assassins Creed: Revelações</b>
+
+                </div>
+
+                <div class="card_body_image">
+                    <img class="card_body_image_img"
+                        src="https://m.media-amazon.com/images/I/51zy0gk6hIL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
+                        alt="">
+                </div>
+
+                <div class="card_body_text">
+                    <div class="card_body_t">
+                        <span>Assassins Creed: Revelações - Oliver Bowden - 392pgs</span>
+                    </div>
+
+                    <div class="card_body_v">
+                        <span style="text-decoration: line-through">R$ 40,00</span>
+                        <b><span style="font-size: 20px">R$ 28,00</span></b>
+                    </div>
+                </div>
+
+                <div class="card_footer btn btn-success">
+                    <b>ADICIONAR A LISTA DE COMPRAS</b>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_header">
+                    <b>Assassins Creed: Renegado</b>
+
+                </div>
+
+                <div class="card_body_image">
+                    <img class="card_body_image_img"
+                        src="https://m.media-amazon.com/images/I/51vcVpbmQSL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
+                        alt="">
+                </div>
+
+                <div class="card_body_text">
+                    <div class="card_body_t">
+                        <span>Assassins Creed: Renegado - Oliver Bowden - 350pgs</span>
+                    </div>
+
+                    <div class="card_body_v">
+                        <span style="text-decoration: line-through">R$ 40,90</span>
+                        <b><span style="font-size: 20px">R$ 28,63</span></b>
+                    </div>
+                </div>
+
+                <div class="card_footer btn btn-success">
+                    <b>ADICIONAR A LISTA DE COMPRAS</b>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_header">
+                    <b>Assassins Creed: Bandeira Negra</b>
+
+                </div>
+
+                <div class="card_body_image">
+                    <img class="card_body_image_img"
+                        src="https://m.media-amazon.com/images/I/51egly6d5OL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
+                        alt="">
+                </div>
+
+                <div class="card_body_text">
+                    <div class="card_body_t">
+                        <span>Assassins Creed: Bandeira Negra - Oliver Bowden - 336pgs</span>
+                    </div>
+
+                    <div class="card_body_v">
+                        <span style="text-decoration: line-through">R$ 42,25</span>
+                        <b><span style="font-size: 20px">R$ 28,88</span></b>
+                    </div>
+                </div>
+
+                <div class="card_footer btn btn-success">
+                    <b>ADICIONAR A LISTA DE COMPRAS</b>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_header">
+                    <b>Assassins Creed: Unity</b>
+
+                </div>
+
+                <div class="card_body_image">
+                    <img class="card_body_image_img"
+                        src="https://m.media-amazon.com/images/I/51UZrbWsLsL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
+                        alt="">
+                </div>
+
+                <div class="card_body_text">
+                    <div class="card_body_t">
+                        <span>Assassins Creed: Unity - Oliver Bowden - 364pgs</span>
+                    </div>
+
+                    <div class="card_body_v">
+                        <span style="text-decoration: line-through">R$ 42,75</span>
+                        <b><span style="font-size: 20px">R$ 29,93</span></b>
+                    </div>
+                </div>
+
+                <div class="card_footer btn btn-success">
+                    <b>ADICIONAR A LISTA DE COMPRAS</b>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_header">
+                    <b>Assassins Creed: Submundo</b>
+
+                </div>
+
+                <div class="card_body_image">
+                    <img class="card_body_image_img"
+                        src="https://m.media-amazon.com/images/I/51pnuieZ1jL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
+                        alt="">
+                </div>
+
+                <div class="card_body_text">
+                    <div class="card_body_t">
+                        <span>Assassins Creed: Submundo - Oliver Bowden - 364pgs</span>
+                    </div>
+
+                    <div class="card_body_v">
+                        <span style="text-decoration: line-through">R$ 27,00</span>
+                        <b><span style="font-size: 20px">R$ 18,90</span></b>
+                    </div>
+                </div>
+
+                <div class="card_footer btn btn-success">
+                    <b>ADICIONAR A LISTA DE COMPRAS</b>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_header">
+                    <b>Assassins Creed: Juramento do Deserto</b>
+
+                </div>
+
+                <div class="card_body_image">
+                    <img class="card_body_image_img"
+                        src="https://m.media-amazon.com/images/I/41EIhk2+njL._SX335_BO1,204,203,200_.jpg" alt="">
+                </div>
+
+                <div class="card_body_text">
+                    <div class="card_body_t">
+                        <span>Assassins Creed: Juramento do Deserto - Oliver Bowden - 294pgs</span>
+                    </div>
+
+                    <div class="card_body_v">
+                        <span style="text-decoration: line-through">R$ 57,00</span>
+                        <b><span style="font-size: 20px">R$ 39,90</span></b>
+                    </div>
+                </div>
+
+                <div class="card_footer btn btn-success">
+                    <b>ADICIONAR A LISTA DE COMPRAS</b>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card_header">
+                    <b>Harry Potter e a Pedra Filosofal</b>
+
+                </div>
+
+                <div class="card_body_image">
+                    <img class="card_body_image_img"
+                        src="https://m.media-amazon.com/images/I/41897yAI4LL._SX346_BO1,204,203,200_.jpg" alt="">
+                </div>
+
+                <div class="card_body_text">
+                    <div class="card_body_t">
+                        <span>Harry Potter e a Pedra Filosofal - J.K Rowling - 208pgs</span>
+                    </div>
+
+                    <div class="card_body_v">
+                        <span style="text-decoration: line-through">R$ 35,00</span>
+                        <b><span style="font-size: 20px">R$ 24,50</span></b>
+                    </div>
+                </div>
+
+                <div class="card_footer btn btn-success">
+                    <b>ADICIONAR A LISTA DE COMPRAS</b>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_header">
+                    <b>Harry Potter e a Câmara Secreta</b>
+
+                </div> 
+
+                <div class="card_body_image">
+                    <img class="card_body_image_img"
+                        src="https://m.media-amazon.com/images/I/51SnGLrrJcL._SX346_BO1,204,203,200_.jpg" alt="">
+                </div>
+
+                <div class="card_body_text">
+                    <div class="card_body_t">
+                        <span>Harry Potter e a Câmara Secreta - J.K Rowling - 224pgs</span>
+                    </div>
+
+                    <div class="card_body_v">
+                        <span style="text-decoration: line-through">R$ 39,00</span>
+                        <b><span style="font-size: 20px">R$ 27,29</span></b>
+                    </div>
+                </div>
+
+                <div class="card_footer btn btn-success">
+                    <b>ADICIONAR A LISTA DE COMPRAS</b>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_header">
+                    <b>Harry Potter e o Prisioneiro de Azkaban</b>
+
+                </div> 
+
+                <div class="card_body_image">
+                    <img class="card_body_image_img"
+                        src="https://m.media-amazon.com/images/I/41kT95iZ81L._SX346_BO1,204,203,200_.jpg" alt="">
+                </div>
+
+                <div class="card_body_text">
+                    <div class="card_body_t">
+                        <span>Harry Potter e o Prisioneiro de Azkaban - J.K Rowling - 228pgs</span>
+                    </div>
+
+                    <div class="card_body_v">
+                        <span style="text-decoration: line-through">R$ 42,70</span>
+                        <b><span style="font-size: 20px">R$ 29,89</span></b>
+                    </div>
+                </div>
+
+                <div class="card_footer btn btn-success">
+                    <b>ADICIONAR A LISTA DE COMPRAS</b>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card_header">
+                    <b>Harry Potter e o Cálice de Fogo</b>
+
+                </div> 
+
+                <div class="card_body_image">
+                    <img class="card_body_image_img"
+                        src="https://m.media-amazon.com/images/I/51DDABrpU5L._SY344_BO1,204,203,200_QL70_ML2_.jpg" alt="">
+                </div>
+
+                <div class="card_body_text">
+                    <div class="card_body_t">
+                        <span>Harry Potter e o Cálice de Fogo - J.K Rowling - 480pgs</span>
+                    </div>
+
+                    <div class="card_body_v">
+                        <span style="text-decoration: line-through">R$ 59,90</span>
+                        <b><span style="font-size: 20px">R$ 41,93</span></b>
+                    </div>
+                </div>
+
+                <div class="card_footer btn btn-success">
+                    <b>ADICIONAR A LISTA DE COMPRAS</b>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_header">
+                    <b>Harry Potter e a Ordem da Fênix</b>
+
+                </div> 
+
+                <div class="card_body_image">
+                    <img class="card_body_image_img"
+                        src="https://m.media-amazon.com/images/I/41SknlxiqHL._SY344_BO1,204,203,200_QL70_ML2_.jpg" alt="">
+                </div>
+
+                <div class="card_body_text">
+                    <div class="card_body_t">
+                        <span>Harry Potter e a Ordem da Fênix - J.K Rowling - 640pgs</span>
+                    </div>
+
+                    <div class="card_body_v">
+                        <span style="text-decoration: line-through">R$ 75,90</span>
+                        <b><span style="font-size: 20px">R$ 53,13</span></b>
+                    </div>
+                </div>
+
+                <div class="card_footer btn btn-success">
+                    <b>ADICIONAR A LISTA DE COMPRAS</b>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card_header">
+                    <b>Harry Potter e o Enigma do Príncipe</b>
+
+                </div> 
+
+                <div class="card_body_image">
+                    <img class="card_body_image_img"
+                        src="https://m.media-amazon.com/images/I/51msVf94L2L._SY344_BO1,204,203,200_QL70_ML2_.jpg" alt="">
+                </div>
+
+                <div class="card_body_text">
+                    <div class="card_body_t">
+                        <span>Harry Potter e o Enigma do Príncipe - J.K Rowling - 432pgs</span>
+                    </div>
+
+                    <div class="card_body_v">
+                        <span style="text-decoration: line-through">R$ 50,90</span>
+                        <b><span style="font-size: 20px">R$ 35,63</span></b>
+                    </div>
+                </div>
+
+                <div class="card_footer btn btn-success">
+                    <b>ADICIONAR A LISTA DE COMPRAS</b>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card_header">
+                    <b>Harry Potter e as Relíquias da Morte</b>
+
+                </div> 
+
+                <div class="card_body_image">
+                    <img class="card_body_image_img"
+                        src="https://m.media-amazon.com/images/I/51PoQ61oq-L._SY344_BO1,204,203,200_QL70_ML2_.jpg" alt="">
+                </div>
+
+                <div class="card_body_text">
+                    <div class="card_body_t">
+                        <span>Harry Potter e as Relíquias da Morte - J.K Rowling - 512pgs</span>
+                    </div>
+
+                    <div class="card_body_v">
+                        <span style="text-decoration: line-through">R$ 52,36</span>
+                        <b><span style="font-size: 20px">R$ 36,65</span></b>
+                    </div>
+                </div>
+
+                <div class="card_footer btn btn-success">
+                    <b>ADICIONAR A LISTA DE COMPRAS</b>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+    </div>
+
+    <!--Divisão Footer-->
+
+    <div class="hpfooter">
+
+        <b>Alguns livros fazem parte do nosso imaginário e nos acompanham em diferentes momentos da vida. Não importa
+            qual seja o motivo, a verdade é que algumas frases de livros têm lugar cativo no coração e por mais que o
+            tempo passe continuam a inspirar e fazer refletir. </b>
+
+    </div>
+
+</body>
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+
+</html>
