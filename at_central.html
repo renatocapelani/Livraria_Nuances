@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central de Atendimento</title>
+    <link rel="stylesheet" href="./css2/reset.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css2/style.css">
+    <link rel="stylesheet" href="./css2/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css">
+</head>
+
+<body>
+    <!--Header-->
+
+
+    <!--Cabeçalho-->
+    <div class="hp-cabecalho">
+
+        <!--Logo-->
+        <div class="logo">
+            <a href="./index.html">
+                <img class="cb-img" src="./img/logo-white.png">
+            </a>
+        </div>
+
+        <!--Nome da Empresa-->
+        <div class="nome-emp">
+            <div>
+                <b>
+                    <span class="span-nome-emp">Livraria</span>
+                    <span class="span-nome-emp">Nuances</span>
+                </b>
+            </div>
+        </div>
+
+
+        <div class="textocentro">
+            <b>CENTRAL DE ATENDIMENTO</b>
+        </div>
+
+    </div>
+
+    <!--Header-->
+
+
+    <div class="container-form">
+        <div class="form-dados">
+            
+                <span>*</span>
+                <label>Nome Completo</label>
+                <input type="text" placeholder="Nome Completo" class="form-control">
+                <span>*</span>
+                <label>Email</label>
+                <input type="text" placeholder="exemplo@email.com.br" class="form-control">
+                <span>*</span>
+                <label>Assunto</label>
+                <input type="text" placeholder="Exemplo" class="form-control">
+                <span>*</span>
+                <label>Texto do Email</label>
+                <textarea class="form-control" style="resize: none;"
+                    placeholder="Informe sua solicitação\reclamação\sugestão" cols="30" rows="6"></textarea>
+                <p>(<span>*</span>) Campos Obrigatórios</p>
+
+                <div class="form-btn">
+                    <b>
+                        <button class="btn-atendimento btn btn-success" onclick="window.location.href = './at_central_confirmado.html'"
+                        >Enviar Email para Central de Atendimento</button>
+                      
+                    </b>
+                </div>
+
+                <div class="form-btn-sair">
+                    <button class="btn-sair-at btn btn-danger" onclick="window.location.href = './index.html'">Sair</button>
+                </div>
+
+        </div>
+        
+
+
+
+    </div>
+
+
+</body>
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+
+</html>

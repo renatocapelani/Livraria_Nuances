@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Livraria Nuances</title>
     <link rel="stylesheet" href="./css2/reset.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css2/style.css">
+    <link rel="stylesheet" href="./css2/style2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css">
 </head>
 
@@ -52,7 +53,7 @@
 
         <!--Central de Atendimento-->
         <div class="cb-atendimento">
-            <a href="./centraldeatedimento.html">
+            <a href="./at_central.html">
             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#FFFFFF" class="bi bi-headset"
                 viewBox="0 0 16 16">
                 <path
@@ -68,26 +69,64 @@
 
         <!--Central de Atendimento-->
         <div class="cb-cadastro">
+            <a href="./user_login.html">
             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#FFFFFF" class="bi bi-person-circle" viewBox="0 0 16 16">
                 <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
                 <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
               </svg>
+            </a>
         </div>
 
         <div class="cb-txt-cadastro">
             <b><span>Olá faça seu login ou cadastre-se</span></b>
         </div>
 
-
+        <!--
         <div class="cb-cesta">
             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#FFFFFF" class="bi bi-basket" viewBox="0 0 16 16">
                 <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"/>
               </svg>
         </div>
+        Central de Atendimento-->
+
+
+
+
+
+        <div class="cb-cesta">
+            <svg 
+            data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"
+            xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#FFFFFF" class="bi bi-basket" viewBox="0 0 16 16">
+                <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"/>
+              </svg>
+              <div  class=" colorgray offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                
+               <div class="container-modal">
+                    <div class="logomodal">
+                        
+                        <img class="logomodal-img" src="./img/logo-white.png" alt="">
+                        
+                        <span class="logomodal-texto">CESTA DE COMPRAS</span>
+                    </div>
+                
+               </div>
+
+
+            </div>
+        </div>
+
+
+
+
+
 
         <div class="cb-txt-cesta">
             <b><span>Cesta de compras</span></b>
         </div>
+
+
+
+
 
 
     </div>
@@ -118,7 +157,7 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="/centraldeatedimento.html" aria-expanded="false">
+                            <a class="nav-link" href="/at_central.html" aria-expanded="false">
                                 Quem somos!
                             </a>
 
@@ -144,6 +183,10 @@
                 <div class="carousel-item">
                     <img src="./img/banner3.jpg" class="d-block w-100" height="280px" width="100%">
                 </div>
+                <div class="carousel-item">
+                    <img src="./img/banner4.jpg" class="d-block w-100" height="280px" width="100%">
+                </div>
+
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
                 data-bs-slide="prev">

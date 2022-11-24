@@ -1,3 +1,6 @@
+
+
+
 .bordersl {
     border: solid;
 }
@@ -46,7 +49,7 @@
     margin-left: 60px;
     align-items: center;
     height: 100%;
-    width: 550px;
+    width: 535px;
 }
 
 .cb-atendimento{
@@ -69,7 +72,7 @@
     align-items: center;
     padding: 0px;
     margin: 0px;
-    margin-left: 5px;
+    margin-left: 15px;
     height: 100%;
     width: 80px;
     color: white;
@@ -96,9 +99,9 @@
     align-items: center;
     padding: 0px;
     margin: 0px;
-    margin-left: 5px;
+    margin-left: 15px;
     height: 100%;
-    width: 109px;
+    width: 120px;
     color: white;
 }
 
@@ -124,7 +127,7 @@
     align-items: center;
     padding: 0px;
     margin: 0px;
-    margin-left: 5px;
+    margin-left: 15px;
     height: 100%;
     width: 109px;
     color: white;
@@ -137,7 +140,7 @@
     margin: 0px;
     margin-left: 27px;
     height: 100%;
-    width: 80px;
+    width: 96px;
 }
 
 .cb-img {
@@ -151,7 +154,7 @@
     align-items: center;
     padding: 0px;
     margin: 0px;
-    margin-left: 9px;
+    margin-left: 0px;
     height: 100%;
     width: 80px;
 }

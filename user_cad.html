@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="./css2/reset.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css2/style.css">
+    <link rel="stylesheet" href="./css2/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css">
+</head>
+
+<body>
+    <!--Header-->
+
+
+    <!--Cabeçalho-->
+    <div class="hp-cabecalho">
+
+        <!--Logo-->
+        <div class="logo" >
+            <a href="./index.html">
+                <img class="cb-img"src="./img/logo-white.png">
+            </a>
+        </div>
+
+                <!--Nome da Empresa-->
+                <div class="nome-emp">
+                    <div>
+                        <b>
+                            <span class="span-nome-emp">Livraria</span>
+                            <span class="span-nome-emp">Nuances</span>
+                        </b>
+                    </div>
+                </div>
+
+
+        <div class="textocentro">
+           <b>CADASTRO DE USUÁRIO</b>
+        </div>
+
+    </div>
+
+    <!--Header-->
+
+
+    <div class="container-form">
+        <div class="form-dados">
+           
+            <span>*</span>
+            <label>Nome Completo</label>            
+            <input type="text" placeholder="Nome Completo" class="form-control">
+            <span>*</span>
+            <label>Email</label>
+            <input type="mail" placeholder="exemplo@email.com.br" class="form-control">
+            <span>*</span>
+            <label>Login</label>
+            <input type="text" placeholder="Informe seu login de acesso" class="form-control">
+            <span>*</span>
+            <label>Senha</label>
+            <input type="password" placeholder="Informe sua senha" class="form-control">
+            <span>*</span>
+            <label>Confirmar senha</label>
+            <input type="password" placeholder="Confirme sua senha" class="form-control">
+            <p>(<span>*</span>) Campos Obrigatórios</p>
+            
+            <div class="form-btn">
+            <b>
+                <button class="btn-atendimento btn btn-success" onclick="window.location.href = './user_cad_confirmado.html'">Realizar Cadastro</button>
+            </b>
+            </div>
+
+            <div class="form-btn-sair">
+                <button class="btn-sair-at btn btn-danger" onclick="window.location.href = './index.html'">Sair</button>
+            </div>
+
+        </div>
+       
+        
+        
+        
+    </div>
+
+
+</body>
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+
+</html>

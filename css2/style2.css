@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    width: 85%;
+    width: 69%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     color: white;
@@ -13,7 +13,7 @@
 .container-form{
     display: flex;
     justify-content: center;
-    height: 80%;
+    height: 505px;
     width: 100%;
     background-color: #DBD7D7;
     
@@ -78,3 +78,52 @@
 
 }
 
+
+.form-dados-confirma{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 30px;
+    height: 4%;
+    width: 50%;
+    
+}
+
+.img-confirma{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    
+}
+
+.img-confirma img{
+height: 40%;
+width: 40%;
+}
+
+
+
+.logomodal{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: #7715C1;
+}
+
+
+.logomodal-img{
+    margin-left: 15px;
+    
+    width: 50px;
+}
+
+.logomodal-texto{
+    margin-left: 10%;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+
+}
