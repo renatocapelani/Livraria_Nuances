@@ -53,13 +53,66 @@
 
         <!--Central de Atendimento-->
         <div class="cb-atendimento">
-            <a href="./at_central.html">
-            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#FFFFFF" class="bi bi-headset"
-                viewBox="0 0 16 16">
-                <path
-                    d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z" />
-            </svg>
-            </a>
+            
+                <svg 
+                
+                data-bs-toggle="offcanvas" data-bs-target="#central-at" aria-controls="central-at"xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#FFFFFF" class="bi bi-headset"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z" />
+                </svg>
+                <div class=" colorgray offcanvas offcanvas-end" tabindex="-1" id="central-at"
+                aria-labelledby="offcanvasRightLabel">
+
+                <div class="container-modal">
+                    <div class="logomodal">
+
+                        <img class="logomodal-img" src="./img/logo-white.png" alt="">
+
+                        <span class="logomodal-texto" style="font-size: 20px;">CENTRAL DE ATENDIMENTO</span>
+                    </div>
+
+                    <div class="modal-login">
+                       
+                        <span>*</span>
+                        <label>Nome Completo</label>
+                        <input type="text" placeholder="Nome Completo" class="form-control">
+                        <span>*</span>
+                        <label>Email</label>
+                        <input type="text" placeholder="exemplo@email.com.br" class="form-control">
+                        <span>*</span>
+                        <label>Assunto</label>
+                        <input type="text" placeholder="Exemplo" class="form-control">
+                        <span>*</span>
+                        <label>Texto do Email</label>
+                        <textarea class="form-control" style="resize: none;"
+                            placeholder="Informe sua solicitação\reclamação\sugestão" cols="30" rows="6"></textarea>
+                        <p>(<span>*</span>) Campos Obrigatórios</p>
+        
+                        <div class="form-btn">
+                            <b>
+                                <button class="btn-atendimento btn btn-success" style="width: 100%;" onclick="window.location.href = './at_central_confirmado.html'"
+                                >Enviar Email para Central de Atendimento</button>
+                              
+                            </b>
+                        </div>
+        
+                        <div class="form-btn-sair">
+                            <button class="btn-sair-at btn btn-danger" onclick="window.location.href = './index.html'">Sair</button>
+                        </div>
+
+
+
+
+
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
         </div>
 
         <div class="cb-txt-atendimento">
@@ -67,49 +120,131 @@
         </div>
 
 
-        <!--Central de Atendimento-->
+        <!--Central de Atendimento
+<div class="cb-cadastro">
+<a href="./user_login.html">
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#FFFFFF" class="bi bi-person-circle" viewBox="0 0 16 16">
+<path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+<path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+</svg>
+</a>
+</div>
+-->
+
         <div class="cb-cadastro">
-            <a href="./user_login.html">
-            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#FFFFFF" class="bi bi-person-circle" viewBox="0 0 16 16">
-                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-              </svg>
-            </a>
+            <svg data-bs-toggle="offcanvas" data-bs-target="#acessarconta" aria-controls="acessarconta"
+                xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#FFFFFF" class="bi bi-person-circle"
+                viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                <path fill-rule="evenodd"
+                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+            </svg>
+            <div class=" colorgray offcanvas offcanvas-end" tabindex="-1" id="acessarconta"
+                aria-labelledby="offcanvasRightLabel">
+
+                <div class="container-modal">
+                    <div class="logomodal">
+
+                        <img class="logomodal-img" src="./img/logo-white.png" alt="">
+
+                        <span class="logomodal-texto" style="font-size: 20px;">ACESSAR SUA CONTA</span>
+                    </div>
+
+                    <div class="modal-login">
+                        <span>*</span>
+                        <label>Login</label>
+                        <input type="text" placeholder="Informe seu login de acesso" class="form-control">
+                        <span>*</span>
+                        <label>Senha</label>
+                        <input type="password" placeholder="Informe sua senha" class="form-control">
+                        <p>(<span>*</span>) Campos Obrigatórios</p>
+                        <a href="./user_cad.html">
+                            <p>Se ainda não é cadastrado clique aqui!</p>
+                        </a>
+                        <a href="./user_re_pass.html">
+                            <p>Esqueci minha senha</p>
+                        </a>
+
+                        <div class="form-btn">
+                            <b>
+                                <button class="btn-atendimento btn btn-success"
+                                    onclick="window.location.href = './user_login_confirmado.html'">Realizar
+                                    Acesso</button>
+                            </b>
+                        </div>
+                        <br><br>
+
+
+                        <div class="form-btn-sair">
+
+                            <button class="btn-sair-at btn btn-danger"
+                                onclick="window.location.href = './index.html'">Sair</button>
+
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <div class="cb-txt-cadastro">
             <b><span>Olá faça seu login ou cadastre-se</span></b>
         </div>
 
         <!--
-        <div class="cb-cesta">
-            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#FFFFFF" class="bi bi-basket" viewBox="0 0 16 16">
-                <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"/>
-              </svg>
-        </div>
-        Central de Atendimento-->
+<div class="cb-cesta">
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#FFFFFF" class="bi bi-basket" viewBox="0 0 16 16">
+<path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"/>
+</svg>
+</div>
+Central de Atendimento-->
 
 
 
 
 
         <div class="cb-cesta">
-            <svg 
-            data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"
-            xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#FFFFFF" class="bi bi-basket" viewBox="0 0 16 16">
-                <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"/>
-              </svg>
-              <div  class=" colorgray offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                
-               <div class="container-modal">
+            <svg data-bs-toggle="offcanvas" data-bs-target="#cesta_compras" aria-controls="cesta_compras"
+                xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#FFFFFF" class="bi bi-basket"
+                viewBox="0 0 16 16">
+                <path
+                    d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z" />
+            </svg>
+            <div class=" colorgray offcanvas offcanvas-end" tabindex="-1" id="cesta_compras"
+                aria-labelledby="offcanvasRightLabel">
+
+                <div class="container-modal">
                     <div class="logomodal">
-                        
+
                         <img class="logomodal-img" src="./img/logo-white.png" alt="">
-                        
-                        <span class="logomodal-texto">CESTA DE COMPRAS</span>
+
+                        <span class="logomodal-texto" style="font-size: 20px;">CESTA DE COMPRAS</span>
                     </div>
-                
-               </div>
+
+                </div>
 
 
             </div>
@@ -219,9 +354,7 @@
                 </div>
 
                 <div class="card_body_image">
-                    <img class="card_body_image_img"
-                        src="https://m.media-amazon.com/images/I/51JbDJM1vAL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
-                        alt="">
+                    <img class="card_body_image_img" src="./img/cards/AC_A_Cruzada_Secreta.jpg" alt="">
                 </div>
 
 
@@ -251,9 +384,7 @@
                 </div>
 
                 <div class="card_body_image">
-                    <img class="card_body_image_img"
-                        src="https://m.media-amazon.com/images/I/51CQWq0v3DL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
-                        alt="">
+                    <img class="card_body_image_img" src="./img/cards/AC_Renascenca.jpg" alt="">
                 </div>
 
                 <div class="card_body_text">
@@ -279,8 +410,7 @@
                 </div>
 
                 <div class="card_body_image">
-                    <img class="card_body_image_img"
-                        src="https://m.media-amazon.com/images/I/41JUKfBWxhL._SX333_BO1,204,203,200_.jpg" alt="">
+                    <img class="card_body_image_img" src="./img/cards/AC_A_Irmandade.jpg" alt="">
                 </div>
 
                 <div class="card_body_text">
@@ -306,9 +436,7 @@
                 </div>
 
                 <div class="card_body_image">
-                    <img class="card_body_image_img"
-                        src="https://m.media-amazon.com/images/I/51zy0gk6hIL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
-                        alt="">
+                    <img class="card_body_image_img" src="./img/cards/AC_A_Revelacoes.jpg" alt="">
                 </div>
 
                 <div class="card_body_text">
@@ -334,9 +462,7 @@
                 </div>
 
                 <div class="card_body_image">
-                    <img class="card_body_image_img"
-                        src="https://m.media-amazon.com/images/I/51vcVpbmQSL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
-                        alt="">
+                    <img class="card_body_image_img" src="./img/cards/AC_Renegado.jpg" alt="">
                 </div>
 
                 <div class="card_body_text">
@@ -362,9 +488,7 @@
                 </div>
 
                 <div class="card_body_image">
-                    <img class="card_body_image_img"
-                        src="https://m.media-amazon.com/images/I/51egly6d5OL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
-                        alt="">
+                    <img class="card_body_image_img" src="./img/cards/AC_Bandeira_Negra.jpg" alt="">
                 </div>
 
                 <div class="card_body_text">
@@ -390,9 +514,7 @@
                 </div>
 
                 <div class="card_body_image">
-                    <img class="card_body_image_img"
-                        src="https://m.media-amazon.com/images/I/51UZrbWsLsL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
-                        alt="">
+                    <img class="card_body_image_img" src="./img/cards/AC_Unity.jpg" alt="">
                 </div>
 
                 <div class="card_body_text">
@@ -418,9 +540,7 @@
                 </div>
 
                 <div class="card_body_image">
-                    <img class="card_body_image_img"
-                        src="https://m.media-amazon.com/images/I/51pnuieZ1jL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
-                        alt="">
+                    <img class="card_body_image_img" src="./img/cards/AC_Submundo.jpg" alt="">
                 </div>
 
                 <div class="card_body_text">
@@ -446,8 +566,7 @@
                 </div>
 
                 <div class="card_body_image">
-                    <img class="card_body_image_img"
-                        src="https://m.media-amazon.com/images/I/41EIhk2+njL._SX335_BO1,204,203,200_.jpg" alt="">
+                    <img class="card_body_image_img" src="./img/cards/AC_Juramento_Do_Deserto.jpg" alt="">
                 </div>
 
                 <div class="card_body_text">
@@ -474,8 +593,7 @@
                 </div>
 
                 <div class="card_body_image">
-                    <img class="card_body_image_img"
-                        src="https://m.media-amazon.com/images/I/41897yAI4LL._SX346_BO1,204,203,200_.jpg" alt="">
+                    <img class="card_body_image_img" src="./img/cards/HP_01.jpg" alt="">
                 </div>
 
                 <div class="card_body_text">
@@ -498,11 +616,10 @@
                 <div class="card_header">
                     <b>Harry Potter e a Câmara Secreta</b>
 
-                </div> 
+                </div>
 
                 <div class="card_body_image">
-                    <img class="card_body_image_img"
-                        src="https://m.media-amazon.com/images/I/51SnGLrrJcL._SX346_BO1,204,203,200_.jpg" alt="">
+                    <img class="card_body_image_img" src="./img/cards/HP_02.jpg" alt="">
                 </div>
 
                 <div class="card_body_text">
@@ -525,11 +642,10 @@
                 <div class="card_header">
                     <b>Harry Potter e o Prisioneiro de Azkaban</b>
 
-                </div> 
+                </div>
 
                 <div class="card_body_image">
-                    <img class="card_body_image_img"
-                        src="https://m.media-amazon.com/images/I/41kT95iZ81L._SX346_BO1,204,203,200_.jpg" alt="">
+                    <img class="card_body_image_img" src="./img/cards/HP_03.jpg" alt="">
                 </div>
 
                 <div class="card_body_text">
@@ -553,11 +669,10 @@
                 <div class="card_header">
                     <b>Harry Potter e o Cálice de Fogo</b>
 
-                </div> 
+                </div>
 
                 <div class="card_body_image">
-                    <img class="card_body_image_img"
-                        src="https://m.media-amazon.com/images/I/51DDABrpU5L._SY344_BO1,204,203,200_QL70_ML2_.jpg" alt="">
+                    <img class="card_body_image_img" src="./img/cards/HP_04.jpg" alt="">
                 </div>
 
                 <div class="card_body_text">
@@ -580,11 +695,10 @@
                 <div class="card_header">
                     <b>Harry Potter e a Ordem da Fênix</b>
 
-                </div> 
+                </div>
 
                 <div class="card_body_image">
-                    <img class="card_body_image_img"
-                        src="https://m.media-amazon.com/images/I/41SknlxiqHL._SY344_BO1,204,203,200_QL70_ML2_.jpg" alt="">
+                    <img class="card_body_image_img" src="./img/cards/HP_05.jpg" alt="">
                 </div>
 
                 <div class="card_body_text">
@@ -608,11 +722,10 @@
                 <div class="card_header">
                     <b>Harry Potter e o Enigma do Príncipe</b>
 
-                </div> 
+                </div>
 
                 <div class="card_body_image">
-                    <img class="card_body_image_img"
-                        src="https://m.media-amazon.com/images/I/51msVf94L2L._SY344_BO1,204,203,200_QL70_ML2_.jpg" alt="">
+                    <img class="card_body_image_img" src="./img/cards/HP_06.jpg" alt="">
                 </div>
 
                 <div class="card_body_text">
@@ -636,11 +749,10 @@
                 <div class="card_header">
                     <b>Harry Potter e as Relíquias da Morte</b>
 
-                </div> 
+                </div>
 
                 <div class="card_body_image">
-                    <img class="card_body_image_img"
-                        src="https://m.media-amazon.com/images/I/51PoQ61oq-L._SY344_BO1,204,203,200_QL70_ML2_.jpg" alt="">
+                    <img class="card_body_image_img" src="./img/cards/HP_07.jpg" alt="">
                 </div>
 
                 <div class="card_body_text">
