@@ -46,6 +46,13 @@
 
 }
 
+
+.modal-login span{
+    color: red;
+    font-weight: bold;
+
+}
+
 .form-btn{
     padding: 0px;
     margin: 0px;
@@ -130,4 +137,148 @@ width: 40%;
 
 .modal-login{
     padding: 15px;
+}
+
+
+.cesta-container{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 475px;
+    width: 100%;
+    
+    border: solid;
+    border-radius: 5px;
+    border-color: #f4f3f5;
+}
+
+.cesta-cards{
+    display: flex;
+}
+
+.cesta-img{
+    height: 80px;
+    width: 55px;
+}
+
+.cesta-conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.cesta-conteudo span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+
+.cesta-cont{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cesta-valor{
+    width: 70px;
+    padding-top: 15px;
+    margin-left: 5px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.cesta-valor span{
+display: flex;
+align-items: center;
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+color: #666666;
+font-weight: bold;
+}
+
+.cesta-qtde-div{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.cesta-qtde{
+    
+    padding: 5px;
+    height: 40px;
+ 
+    border: solid;
+    border-radius: 5px;
+    border-color: #f4f3f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cesta-qtde button{
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 3px;
+    opacity: 100%;
+    border: none;
+}
+
+.cesta-qtde button:hover{
+color:  rgb(3, 240, 54);;
+}
+
+.cesta-total{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cesta-total div{
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.cesta-div-total{
+    width: 70%;
+}
+.cesta-div-valor{
+    width: 30%;
+}
+
+
+
+.cesta-total span{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+}
+
+.cesta-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.cesta-btn div{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.btn-cesta{
+    font-size: 12px;
+    width: 100%;
 }
