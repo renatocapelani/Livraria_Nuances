@@ -172,6 +172,7 @@ width: 40%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 16px;
+    color: #666666
 }
 
 
@@ -281,4 +282,87 @@ color:  rgb(3, 240, 54);;
 .btn-cesta{
     font-size: 12px;
     width: 100%;
+}
+
+
+
+.form-qs{
+    height:420px;
+    display: flex;
+    padding: 30px;
+    gap: 4%;
+}
+
+.qs-imagem{
+    
+    width: 48%;
+}
+
+.qs-imagem img{
+    height: 100%;
+    width: 100%;
+}
+
+.qs-texto{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 48%;
+}
+
+.qs-texto-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qs-texto-logo img{
+    width: 50% ;
+}
+
+.qs-texto p{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 60px;
+    text-align: justify;
+    color: #666666;
+}
+
+.form-dados-compra{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 30px;
+    height: 90%;
+    width: 80%;
+    
+}
+
+
+.cab{
+    display: flex;
+    padding: 0px;
+    padding-left: 65px;
+    margin: 0px;
+    gap: 190px;
+}
+
+.cab div{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+}
+
+.total-compra{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-right: 25px;
+}
+
+.total-compra span{
+font-size: 24px;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+color: #666666;
 }
